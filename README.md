@@ -6,10 +6,17 @@ Eyowo Prestashop Module allows you to accept credit card payments on your websit
 Getting Started
 ================
 
-*
-*
-*
-*
+All you have to do is open eyowo.php in a text editor and change the value of wallet to yours:
+
+       class Eyowo extends PaymentModule{
+        public function __construct(){
+            $this->name = 'eyowo';
+            $this->tab = 'payments_gateways';
+            $this->version = 1.0;
+            $this->author = 'Finbarrs Oketunji';
+            $this->need_instance = 0;
+            $this->wallet = '6I1316Q';  
+            $this->gw = 'https://www.eyowo.com/gateway/pay';
 
 License
 ================
