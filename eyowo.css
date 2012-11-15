@@ -1,0 +1,42 @@
+/* Modal window */
+div.globalspinner {
+    background-color:transparent;
+    color:#FFFFFF;
+/*    height:100%;*/
+    left:50%;
+    margin-left:-100px;
+    opacity:0.8;
+    position:fixed;
+    text-align:center;
+    top:45%;
+    z-index:1000000;
+}
+
+div#spinnerdistance {
+    margin-bottom:-7px;
+    background:transparent;
+    width:1px;
+    height:50%;
+    float:left;
+
+}
+
+div#spinnercontent {
+    background-color:#333333;
+    border:5px solid #DDDDDD;
+/*    clear:left;*/
+/*    height:25px;*/
+/*    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;*/
+/*    padding:30px 50px;*/
+    padding: 25px;
+    position:fixed;
+    z-index:1000000;
+/*    text-align:left;*/
+/*    width:138px;*/
+}
+
+.hand{
+    cursor: pointer;
+}
