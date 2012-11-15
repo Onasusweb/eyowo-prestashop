@@ -15,7 +15,7 @@ All you have to do is open eyowo.php in a text editor and change the value of wa
             $this->version = 1.0;
             $this->author = 'Finbarrs Oketunji';
             $this->need_instance = 0;
-            $this->wallet = '6I1316Q';  
+            $this->wallet = '6I1312W';  
             $this->gw = 'https://www.eyowo.com/gateway/pay';
 
 License
