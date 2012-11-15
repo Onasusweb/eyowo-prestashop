@@ -3,16 +3,16 @@ eyowo-prestashop
 
 Eyowo Prestashop Module allows you to accept credit card payments on your website easily and quickly. If you have Eyowo merchant account setup, then this module is for you. It will allow you to do auth/capture transactions within the confines of the Eyowo payment system.
 
-By Finbarrs Oketunji
+Getting Started
+================
 
-h2. Getting Started
-
 *
 *
 *
 *
 
-h2. License
+License
+================
 
 (The MIT License)
 
